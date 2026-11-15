@@ -72,3 +72,6 @@ textarea{min-height:110px;resize:vertical}
 .chat{display:flex;flex-direction:column;gap:10px;max-height:420px;overflow:auto;width:100%;text-align:left}
 .chat div{padding:10px 14px;border-radius:12px;background:var(--bg);white-space:pre-wrap}.chat .u{background:var(--glow)}
 @media(max-width:860px){.app{grid-template-columns:1fr}.side{position:static;height:auto;display:flex;flex-wrap:wrap;border:0}.side h4{display:none}.main{grid-template-columns:1fr}}
+
+.lg{width:38px;height:38px;display:block;position:relative}.lg img{position:absolute;inset:0;width:100%;height:100%}
+.lg .l2{display:none}[data-theme=dark] .lg .l1{display:none}[data-theme=dark] .lg .l2{display:block}
