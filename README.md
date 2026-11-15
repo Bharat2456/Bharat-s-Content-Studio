@@ -18,21 +18,25 @@
 
 ![Platform walkthrough](docs/demo.gif)
 
-Full-quality video: [docs/demo.mp4](docs/demo.mp4)
+Full-quality video: [docs/demo.mp4](docs/demo.mp4) (click the file on GitHub, then play)
 
 ## Screenshots
 
-| Landing page (light, default) | Landing page (dark) |
+| Landing page (light, the default) | Landing page (dark) |
 |---|---|
 | ![Landing light](docs/screenshots/landing-light.png) | ![Landing dark](docs/screenshots/landing-dark.png) |
 
-| Dashboard | Image generation |
+| Dashboard (light) | Dashboard (dark) |
 |---|---|
-| ![Dashboard](docs/screenshots/dashboard-light.png) | ![Image generation](docs/screenshots/image-generation.png) |
+| ![Dashboard light](docs/screenshots/dashboard-light.png) | ![Dashboard dark](docs/screenshots/dashboard-dark.png) |
 
-| Cinema Studio | Marketing agents |
+| Cinema Studio | Marketing tools |
 |---|---|
-| ![Cinema Studio](docs/screenshots/studio-cin.png) | ![Agents](docs/screenshots/studio-agent.png) |
+| ![Cinema Studio](docs/screenshots/studio-cin.png) | ![Marketing tools](docs/screenshots/studio-mkt.png) |
+
+| Marketing agents | Builder page |
+|---|---|
+| ![Agents](docs/screenshots/studio-agent.png) | ![Builder](docs/screenshots/builder-light.png) |
 
 ## Why this exists
 
