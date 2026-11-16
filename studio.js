@@ -59,5 +59,5 @@ function setView(){$('#main').innerHTML=`<h2>Settings<small>Everything is stored
  $('#sv').onclick=()=>{localStorage.setItem('fal',$('#k').value.trim());$('#ok').textContent='Saved.'};$('#ch').onclick=()=>{localStorage.removeItem('hist');$('#ok').textContent='History cleared.'}}
 function route(){const id=location.hash.slice(1)||'img',t=T.find(x=>x.id==id)||T[0];
  let g='';$('#side').innerHTML=T.map(x=>{const h=x.g!=g?`<h4>${g=x.g}</h4>`:'';return h+`<a href="#${x.id}" class="${x.id==t.id?'on':''}">${x.n}</a>`}).join('');
- t.id=='clip'?clipView():t.id=='agent'?agentView():t.id=='set'?setView():view(t)}
+ t.id=='clip'?clipView():t.id=='agent'?agentView():t.id=='set'?setView():view(t);document.querySelector('.side a.on')?.scrollIntoView({inline:'center',block:'nearest'})}
 addEventListener('hashchange',route);route();

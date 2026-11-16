@@ -38,6 +38,13 @@ Full-quality video: [docs/demo.mp4](docs/demo.mp4) (click the file on GitHub, th
 |---|---|
 | ![Agents](docs/screenshots/studio-agent.png) | ![Builder](docs/screenshots/builder-light.png) |
 
+### On phones and tablets
+
+<p>
+<img src="docs/screenshots/mobile-landing.png" alt="Mobile landing page" width="260">
+<img src="docs/screenshots/mobile-studio.png" alt="Mobile dashboard" width="260">
+</p>
+
 ## Why this exists
 
 Most AI creative tools lock their best models behind monthly plans, and you end up paying for five subscriptions to make one video. Bharat's Content Studio puts the models side by side in a single interface, with no account and no plan:
@@ -72,7 +79,7 @@ Most AI creative tools lock their best models behind monthly plans, and you end 
 | Marketing tools | Ad copy, captions, emails, landing hero text, launch plans, scripts |
 | Agents | Social media manager, campaign strategist, script writer, calendar planner, ad creative director |
 
-The interface has a light theme by default and a dark cinematic theme, switchable from the top bar.
+The interface is fully responsive (phones, tablets and laptops) with a mobile menu and a swipeable tool bar in the dashboard. It has a light theme by default and a dark cinematic theme, switchable from the top bar.
 
 ## How it works
 
